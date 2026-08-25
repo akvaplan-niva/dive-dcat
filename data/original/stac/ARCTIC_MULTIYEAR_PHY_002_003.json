@@ -1,0 +1,376 @@
+{
+  "id": "ARCTIC_MULTIYEAR_PHY_002_003",
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "title": "Arctic Ocean Physics Reanalysis",
+  "description": "The current version of the TOPAZ system - TOPAZ4b -  is nearly identical to the real-time forecast system run at MET Norway. It uses a recent version of the Hybrid Coordinate Ocean Model (HYCOM) developed at University of Miami (Bleck 2002). HYCOM is coupled to a sea ice model; ice thermodynamics are described in Drange and Simonsen (1996) and the elastic-viscous-plastic rheology in Hunke and Dukowicz (1997). The model's native grid covers the Arctic and North Atlantic Oceans,  has fairly homogeneous horizontal spacing (between 11 and 16 km). 50 hybrid layers are used in the vertical (z-isopycnal). TOPAZ4b uses the Deterministic version of the Ensemble Kalman filter (DEnKF; Sakov and Oke 2008) to assimilate remotely sensed as well as temperature and salinity profiles. The output is interpolated onto standard grids and depths for convenience. Daily values are provided at all depths and surfaces momentum and heat fluxes are provided as well. Data assimilation, including the 100-member ensemble production, is performed weekly. Sea ice thickness prior to 2010 has been post-processed by an AI-based procedure.",
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "NERSC (Norway)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "Copernicus Marine Service",
+      "roles": [
+        "host",
+        "processor"
+      ],
+      "url": "https://marine.copernicus.eu"
+    }
+  ],
+  "keywords": [
+    "numerical-model",
+    "sea-surface-elevation",
+    "sea-ice-x-velocity",
+    "y-sea-water-velocity",
+    "ocean-mixed-layer-thickness",
+    "ocean-barotropic-streamfunction",
+    "sea-ice-y-velocity",
+    "sea-floor-depth-below-sea-level",
+    "sea-water-potential-temperature",
+    "sea-water-potential-temperature-at-sea-floor",
+    "x-sea-water-velocity",
+    "multi-year",
+    "coastal-marine-environment",
+    "marine-safety",
+    "marine-resources",
+    "weather-climate-and-seasonal-forecasting",
+    "arctic-ocean",
+    "level-4",
+    "sea-level",
+    "sst",
+    "sea-ice-concentration-and/or-thickness",
+    "in-situ-ts-profiles"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.stac.json",
+      "title": "Copernicus Marine Data Store",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.stac.json",
+      "title": "Copernicus Marine Data Store",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_hflux_P1D-m_202411/dataset.stac.json",
+      "title": "Heat flux, daily",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_hflux_P1M-m_202411/dataset.stac.json",
+      "title": "Heat flux, monthly",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_mflux_P1D-m_202411/dataset.stac.json",
+      "title": "Momentum flux, daily",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_mflux_P1M-m_202411/dataset.stac.json",
+      "title": "Momentum flux, monthly",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_hflux_P1D-m_202411--ext--originalGrid/dataset.stac.json",
+      "title": "Heat flux, daily, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_hflux_P1M-m_202411--ext--originalGrid/dataset.stac.json",
+      "title": "Heat flux, monthly, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_mflux_P1M-m_202411--ext--originalGrid/dataset.stac.json",
+      "title": "Momentum flux, monthly, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_mflux_P1D-m_202411--ext--originalGrid/dataset.stac.json",
+      "title": "Momentum flux, daily, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1D-m_202506/dataset.stac.json",
+      "title": "Daily",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1D-m_202506--ext--originalGrid/dataset.stac.json",
+      "title": "Daily, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1M_202506/dataset.stac.json",
+      "title": "Monthly",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1M_202506--ext--originalGrid/dataset.stac.json",
+      "title": "Monthly, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1Y_202506/dataset.stac.json",
+      "title": "Yearly",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_arc_phy_my_topaz4_P1Y_202506--ext--originalGrid/dataset.stac.json",
+      "title": "Yearly, original grid",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "title": "Copernicus Marine Service Commitments and Licence",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.48670/moi-00007",
+      "title": "10.48670/moi-00007",
+      "type": "text/html"
+    },
+    {
+      "rel": "alternative",
+      "href": "https://data.marine.copernicus.eu/product/ARCTIC_MULTIYEAR_PHY_002_003",
+      "title": "Product page",
+      "type": "text/html"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/QUID/CMEMS-ARC-QUID-002-003.pdf",
+      "title": "Quality Information Document",
+      "type": "application/pdf",
+      "ref": "CMEMS-ARC-QUID-002-003",
+      "createdAt": "2015-05-01",
+      "updatedAt": "2024-07-31T13:33:05.736Z"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/SQO/CMEMS-ARC-SQO-002-003.pdf",
+      "title": "Synthesis Quality Overview",
+      "type": "application/pdf",
+      "ref": "CMEMS-ARC-SQO-002-003",
+      "createdAt": "2023-11-30",
+      "updatedAt": "2024-07-31T13:06:28.841Z"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/PUM/CMEMS-ARC-PUM-002-003.pdf",
+      "title": "Product User Manual",
+      "type": "application/pdf",
+      "ref": "CMEMS-ARC-PUM-002-003",
+      "createdAt": "2025-11-25",
+      "updatedAt": "2025-09-19T13:28:41.951808Z"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          34.68649673461914,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1991-01-01T00:00:00Z",
+          "2026-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://mdl-metadata.s3.waw3-1.cloudferro.com/metadata/thumbnails/ARCTIC_MULTIYEAR_PHY_002_003.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Arctic Ocean Physics Reanalysis thumbnail"
+    }
+  },
+  "properties": {
+    "altId": "2b6bf019-29d2-4b2b-b337-fbe8303196d6",
+    "providerMetadata": {
+      "source": "cmems",
+      "type": "csw",
+      "url": "https://csw.marine.copernicus.eu/geonetwork/csw-MYOCEAN-CORE-PRODUCTS/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&id=2b6bf019-29d2-4b2b-b337-fbe8303196d6&elementsetname=full&outputSchema=http://www.isotc211.org/2005/gmd"
+    },
+    "thumbnailMeta": {
+      "creationDate": "2023-06-18T05:33:47.318Z",
+      "layerId": "ARCTIC_MULTIYEAR_PHY_002_003/cmems_mod_arc_phy_my_topaz4_P1M_202012/thetao",
+      "time": 1565827200000,
+      "elevation": 0,
+      "basemapId": "light",
+      "overlays": {
+        "tags": []
+      },
+      "crs": "epsg:32661",
+      "valueMin": -1.7760859632492065,
+      "valueMax": 11.494618167877197,
+      "valueClamp": true,
+      "logScale": false,
+      "style": "default",
+      "colormapId": "thermal",
+      "colormapInvert": false
+    },
+    "creationDate": "2013-03-13",
+    "modifiedDate": "2025-06-24",
+    "contacts": [
+      {
+        "name": "",
+        "organisationName": "ARC-NERSC-BERGEN-NO",
+        "responsiblePartyRole": "resourceProvider",
+        "email": ""
+      }
+    ],
+    "projection": "North polar stereographic",
+    "assimilatedData": [
+      "Sea Level",
+      "SST",
+      "Sea Ice Concentration and/or Thickness",
+      "In-Situ TS Profiles"
+    ],
+    "formats": [
+      "NetCDF-4"
+    ],
+    "updateFrequencies": {
+      "biannually": null
+    },
+    "featureTypes": [
+      "Grid"
+    ],
+    "indicatorFamilies": [],
+    "geoExtent": {
+      "type": "envelope",
+      "coordinates": [
+        [
+          -180,
+          90
+        ],
+        [
+          180,
+          53
+        ]
+      ]
+    },
+    "geoResolution": {
+      "row": {
+        "magnitude": 12.5,
+        "units": "km"
+      },
+      "column": {
+        "magnitude": 12.5,
+        "units": "km"
+      }
+    },
+    "tempExtentBegin": "1993-01-01",
+    "tempExtentEnd": "",
+    "tempResolutions": [
+      "Monthly",
+      "Daily",
+      "Yearly"
+    ],
+    "vertExtentMin": -4000,
+    "vertExtentMax": 0,
+    "vertLevels": 40,
+    "rank": 2501,
+    "useCases": [
+      {
+        "title": "Monitoring of the ecosystem within Disko Bay",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/2024-09/Image_Use%20case2B.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/monitoring-ecosystem-within-disko-bay"
+      },
+      {
+        "title": "Disko Bay ocean and sea ice forecast for short term planning and decision-making ",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/20231107_104207.jpg",
+        "href": "https://marine.copernicus.eu/services/use-cases/disko-bay-ocean-and-sea-ice-forecast-short-term-planning-and-decision-making"
+      },
+      {
+        "title": "Coastal service dedicated to fishing, aquaculture and maritime safety in the Arctic",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/image1.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/coastal-service-dedicated-fishing-aquaculture-and-maritime-safety-arctic"
+      }
+    ],
+    "areas": [
+      "Arctic Ocean"
+    ],
+    "times": [
+      "Past"
+    ],
+    "sources": [
+      "Numerical models"
+    ],
+    "colors": [
+      "White Ocean",
+      "Blue Ocean"
+    ],
+    "communities": [
+      "Polar environment monitoring",
+      "Policy & governance",
+      "Science & innovation",
+      "Extremes, hazards & safety",
+      "Coastal services",
+      "Natural resources & energy",
+      "Trade & marine navigation"
+    ],
+    "processingLevel": "Level 4",
+    "mainVariables": [
+      "Temperature",
+      "Velocity",
+      "Mixed layer thickness",
+      "Sea ice"
+    ],
+    "allVariables": [
+      "Ocean barotropic streamfunction",
+      "Ocean mixed layer thickness",
+      "Sea floor depth below sea level",
+      "Sea ice x velocity",
+      "Sea ice y velocity",
+      "Sea surface elevation",
+      "Sea water potential temperature",
+      "Sea water potential temperature at sea floor",
+      "X sea water velocity",
+      "Y sea water velocity"
+    ],
+    "directives": [
+      "Maritime Spatial Planning (MSP)",
+      "ARCTIC policy"
+    ],
+    "isStaging": false,
+    "admp_updated": "2026-08-18T10:16:18.123520Z"
+  },
+  "sci:doi": "10.48670/moi-00007"
+}

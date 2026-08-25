@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dcat:Dataset xmlns:dcat="http://www.w3.org/ns/dcat#"
+    rdf:about="https://adc.met.no/dataset/90e1c0ba-9dc7-5ffe-9578-28b73967602d">
+    <dct:title xmlns:dct="http://purl.org/dc/terms/"
+      xml:lang="en">ROMS NorKyst800 ocean model</dct:title>
+    <dct:description xmlns:dct="http://purl.org/dc/terms/" xml:lang="en">
+  MET Norway's operational ocean model ROMS is run on the NorKyst-800m
+  grid, a polar-stereographic grid covering the Norwegian coastal zone
+  with 800 m grid spacing. The model is run daily (00UTC) with
+  atmospheric forcing from Arome2.5km, vertical boundary conditions
+  from Nordic-4km, and tides from TPXO 7.2, to provide forecasts to
+  +66 hrs.
+
+  The daily operational runs are joined into a long timeseries using a
+  best estimate approach.
+  </dct:description>
+    <dcat:distribution>
+      <dcat:Distribution
+        rdf:about="https://thredds.met.no/thredds/dodsC/sea/norkyst800m/24h/aggregate_be">
+        <dct:description xmlns:dct="http://purl.org/dc/terms/" />
+        <dcat:accessURL
+          rdf:resource="https://thredds.met.no/thredds/dodsC/sea/norkyst800m/24h/aggregate_be.html" />
+        <dct:license xmlns:dct="http://purl.org/dc/terms/">
+          <dct:LicenseDocument rdf:about="http://spdx.org/licenses/CC-BY-4.0">
+            <foaf:name
+              xmlns:foaf="http://xmlns.com/foaf/0.1/">CC-BY-4.0</foaf:name>
+          </dct:LicenseDocument>
+        </dct:license>
+        <dct:accessRights xmlns:dct="http://purl.org/dc/terms/">
+          <dct:RightsStatement>
+            <rdfs:label
+              xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Open</rdfs:label>
+          </dct:RightsStatement>
+        </dct:accessRights>
+        <adms:status xmlns:adms="http://www.w3.org/ns/adms#">
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+            rdf:about="http://purl.org/adms/status/">
+            <skos:prefLabel />
+            <skos:inScheme rdf:resource="http://purl.org/adms/status" />
+          </skos:Concept>
+        </adms:status>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution
+        rdf:about="https://thredds.met.no/thredds/wms/sea/norkyst800m/24h/aggregate_be">
+        <dct:description xmlns:dct="http://purl.org/dc/terms/" />
+        <dcat:accessURL
+          rdf:resource="https://thredds.met.no/thredds/wms/sea/norkyst800m/24h/aggregate_be" />
+        <dcat:accessService>
+          <dcat:DataService>
+            <dcat:endpointURL
+              rdf:resource="https://thredds.met.no/thredds/wms/sea/norkyst800m/24h/aggregate_be" />
+            <dcat:endpointDescription
+              rdf:resource="https://thredds.met.no/thredds/wms/sea/norkyst800m/24h/aggregate_be" />
+            <dct:title xmlns:dct="http://purl.org/dc/terms/" />
+            <dct:conformsTo xmlns:dct="http://purl.org/dc/terms/">
+              <dct:Standard
+                rdf:about="http://www.opengeospatial.org/standards/wms" />
+            </dct:conformsTo>
+          </dcat:DataService>
+        </dcat:accessService>
+        <dct:license xmlns:dct="http://purl.org/dc/terms/">
+          <dct:LicenseDocument rdf:about="http://spdx.org/licenses/CC-BY-4.0">
+            <foaf:name
+              xmlns:foaf="http://xmlns.com/foaf/0.1/">CC-BY-4.0</foaf:name>
+          </dct:LicenseDocument>
+        </dct:license>
+        <dct:accessRights xmlns:dct="http://purl.org/dc/terms/">
+          <dct:RightsStatement>
+            <rdfs:label
+              xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Open</rdfs:label>
+          </dct:RightsStatement>
+        </dct:accessRights>
+        <adms:status xmlns:adms="http://www.w3.org/ns/adms#">
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+            rdf:about="http://purl.org/adms/status/">
+            <skos:prefLabel />
+            <skos:inScheme rdf:resource="http://purl.org/adms/status" />
+          </skos:Concept>
+        </adms:status>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:publisher xmlns:dct="http://purl.org/dc/terms/">
+      <foaf:Agent xmlns:foaf="http://xmlns.com/foaf/0.1/">
+        <foaf:name />
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:spatial xmlns:dct="http://purl.org/dc/terms/">
+      <dct:Location>
+        <dcat:bbox
+          rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        POLYGON((-1.56 75.19999999999999,37.94 75.19999999999999,37.94 55.8,-1.56 55.8,-1.56 75.19999999999999))
+        </dcat:bbox>
+      </dct:Location>
+    </dct:spatial>
+    <dct:temporal xmlns:dct="http://purl.org/dc/terms/">
+      <dct:PeriodOfTime>
+        <dcat:startDate
+          rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2017-02-28T12:00:00Z</dcat:startDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:subject xmlns:dct="http://purl.org/dc/terms/"
+      rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans" />
+    <dcat:keyword>EARTH SCIENCE &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents</dcat:keyword>
+    <dcat:keyword>EARTH SCIENCE &gt; Oceans &gt; Salinity/Density &gt; Salinity</dcat:keyword>
+    <dcat:keyword>EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</dcat:keyword>
+    <dcat:keyword>EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</dcat:keyword>
+    <dcat:keyword>EARTH SCIENCE &gt; Oceans &gt; Sea Ice &gt; Sea Ice Concentration</dcat:keyword>
+    <dct:accessRights xmlns:dct="http://purl.org/dc/terms/">
+      <dct:RightsStatement>
+        <rdfs:label
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Open</rdfs:label>
+      </dct:RightsStatement>
+    </dct:accessRights>
+    <dct:creator xmlns:dct="http://purl.org/dc/terms/">
+      <foaf:Agent xmlns:foaf="http://xmlns.com/foaf/0.1/">
+        <foaf:name>Nils Melsom Kristensen</foaf:name>
+      </foaf:Agent>
+    </dct:creator>
+    <foaf:page xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document
+        rdf:about="https://thredds.met.no/thredds/fou-hi/norkyst800v2.html?dataset=norkyst800m_24h_be">
+        <dct:description
+          xmlns:dct="http://purl.org/dc/terms/">Data server landing page</dct:description>
+      </foaf:Document>
+    </foaf:page>
+    <dct:identifier
+      xmlns:dct="http://purl.org/dc/terms/">no.met.adc:90e1c0ba-9dc7-5ffe-9578-28b73967602d</dct:identifier>
+    <dcat:landingPage>
+      <foaf:Document xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        rdf:about="https://adc.met.no/dataset/90e1c0ba-9dc7-5ffe-9578-28b73967602d">
+        <dct:description
+          xmlns:dct="http://purl.org/dc/terms/">Dataset landing page</dct:description>
+      </foaf:Document>
+    </dcat:landingPage>
+    <dct:modified xmlns:dct="http://purl.org/dc/terms/"
+      rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2025-03-25T13:16:50Z</dct:modified>
+    <prov:wasGeneratedBy xmlns:prov="http://www.w3.org/ns/prov">
+      <prov:Activity>
+        <rdfs:label
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Public service</rdfs:label>
+      </prov:Activity>
+    </prov:wasGeneratedBy>
+  </dcat:Dataset>
+</rdf:RDF>

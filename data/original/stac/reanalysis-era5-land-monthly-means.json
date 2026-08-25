@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "reanalysis-era5-land-monthly-means",
+  "stac_version": "1.1.0",
+  "title": "ERA5-Land monthly averaged data from 1950 to present",
+  "description": "ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. Reanalysis produces data that goes several decades back in time, providing an accurate description of the climate of the past.\nERA5-Land provides a consistent view of the water and energy cycles at surface level during several decades.\nIt contains a detailed record from 1950 onwards, with a temporal resolution of 1 hour. The native spatial resolution of the ERA5-Land reanalysis dataset is 9km on a reduced Gaussian grid (TCo1279). The data in the CDS has been regridded to a regular lat-lon grid of 0.1x0.1 degrees.\nThe data presented here is a post-processed subset of the full ERA5-Land dataset. Monthly-mean averages have been pre-calculated to facilitate many applications requiring easy and fast access to the data, when sub-monthly fields are not required.",
+  "summaries": {},
+  "providers": [{ "name": "ECMWF" }],
+  "keywords": [
+    "Product type: Reanalysis",
+    "Temporal coverage: Past",
+    "Spatial coverage: Global",
+    "Variable domain: Land (biosphere)",
+    "Variable domain: Land (hydrology)",
+    "Provider: Copernicus C3S",
+    "Variable domain: Land (physics)"
+  ],
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": { "bbox": [[0.0, -89.0, 360.0, 89.0]] },
+    "temporal": {
+      "interval": [["1950-01-01T00:00:00+00:00", "2026-07-01T00:00:00+00:00"]]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land-monthly-means"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "qa",
+      "href": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means?tab=quality_assurance_tab",
+      "title": "Quality assessment of the dataset",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://spdx.org/licenses/CC-BY-4.0",
+      "title": "CC-BY licence",
+      "rev": 1,
+      "id": "cc-by"
+    },
+    {
+      "rel": "form",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/form_6117b08b08997a87b4b45de70451a989a79af251de8293a64375de111da6d79e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "constraints",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/constraints_a9893bb60978f26105e44fb9c083713d2c0516297ab7dd7f31ba85e347a89613.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "retrieve",
+      "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land-monthly-means",
+      "type": "application/json"
+    },
+    {
+      "rel": "costing_api",
+      "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land-monthly-means/costing",
+      "type": "application/json"
+    },
+    {
+      "rel": "layout",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/layout_7e4ffe324d2ccaa0b7227aace55d0c3a6a87363fafe9a27554ef888be1c46502.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-land-daily-statistics",
+      "title": "ERA5-Land post-processed daily statistics from 1950 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land",
+      "title": "ERA5-Land hourly data from 1950 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land-timeseries",
+      "title": "ERA5 Land hourly time-series data from 1950 to present"
+    },
+    {
+      "rel": "messages",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land-monthly-means/messages",
+      "title": "All active messages on ERA5-Land monthly averaged data from 1950 to present"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/overview_b50879b09a1fdb1f128c7784f2ce62378d4c68e156ca0c4ebdc0fe4f26375cf0.png",
+      "type": "image/jpg",
+      "roles": ["thumbnail"]
+    }
+  },
+  "published": "2019-06-23T00:00:00Z",
+  "updated": "2026-08-06T00:00:00Z",
+  "sci:doi": "10.24381/cds.68d2bb30",
+  "cads:disabled_reason": null,
+  "cads:sanity_check": {
+    "status": "available",
+    "timestamp": "2026-08-25T10:17:28.752939+00:00"
+  },
+  "cads:update_frequency": "Monthly",
+  "cads:fair": 96
+}

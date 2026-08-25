@@ -1,0 +1,337 @@
+{
+  "id": "GLOBAL_MULTIYEAR_BGC_001_029",
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "title": "Global Ocean Biogeochemistry Hindcast",
+  "description": "The biogeochemical hindcast for global ocean is produced at Mercator-Ocean (Toulouse. France). It provides 3D biogeochemical fields since year 1993 at 1/4 degree and on 75 vertical levels. It uses PISCES biogeochemical model (available on the NEMO modelling platform). No data assimilation in this product.\n\n* Latest NEMO version (v3.6_STABLE)\n* Forcings: FREEGLORYS2V4 ocean physics produced at Mercator-Ocean and ERA-Interim atmosphere produced at ECMWF at a daily frequency                                                                           \n* Outputs: Daily (chlorophyll. nitrate. phosphate. silicate. dissolved oxygen. primary production) and monthly (chlorophyll. nitrate. phosphate. silicate. dissolved oxygen. primary production. iron. phytoplankton in carbon) 3D mean fields interpolated on a standard regular grid in NetCDF format. The simulation is performed once and for all.\n* Initial conditions: World Ocean Atlas 2013 for nitrate. phosphate. silicate and dissolved oxygen. GLODAPv2 for DIC and Alkalinity. and climatological model outputs for Iron and DOC \n* Quality/Accuracy/Calibration information: See the related QuID",
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Mercator Ocean International",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "Copernicus Marine Service",
+      "roles": [
+        "host",
+        "processor"
+      ],
+      "url": "https://marine.copernicus.eu"
+    }
+  ],
+  "keywords": [
+    "oceanographic-geographical-features",
+    "numerical-model",
+    "mole-concentration-of-nitrate-in-sea-water",
+    "surface-partial-pressure-of-carbon-dioxide-in-sea-water",
+    "mole-concentration-of-silicate-in-sea-water",
+    "mole-concentration-of-phosphate-in-sea-water",
+    "sea-water-ph-reported-on-total-scale",
+    "model-level-number-at-sea-floor",
+    "cell-thickness",
+    "sea-floor-depth-below-geoid",
+    "mole-concentration-of-dissolved-molecular-oxygen-in-sea-water",
+    "net-primary-production-of-biomass-expressed-as-carbon-per-unit-volume-in-sea-water",
+    "mole-concentration-of-phytoplankton-expressed-as-carbon-in-sea-water",
+    "sea-binary-mask",
+    "mass-concentration-of-chlorophyll-a-in-sea-water",
+    "mole-concentration-of-dissolved-iron-in-sea-water",
+    "invariant",
+    "multi-year",
+    "marine-safety",
+    "marine-resources",
+    "coastal-marine-environment",
+    "weather-climate-and-seasonal-forecasting",
+    "global-ocean",
+    "level-4",
+    "none",
+    "data",
+    "north-mid-atlantic-ridge",
+    "atlantic-ocean",
+    "wp5-assessing-state,-drivers-and-tipping-points",
+    "/cross-discipline/rate-measurements",
+    "modelling-data"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.stac.json",
+      "title": "Copernicus Marine Data Store",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.stac.json",
+      "title": "Copernicus Marine Data Store",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_glo_bgc_my_0.25deg_P1M-m_202406/dataset.stac.json",
+      "title": "Monthly",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_glo_bgc_my_0.25deg_static_202406--ext--coords/dataset.stac.json",
+      "title": "Statics (coordinates)",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_glo_bgc_my_0.25deg_static_202406--ext--mask/dataset.stac.json",
+      "title": "Statics (mask)",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "cmems_mod_glo_bgc_my_0.25deg_P1D-m_202406/dataset.stac.json",
+      "title": "Daily",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "title": "Copernicus Marine Service Commitments and Licence",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.48670/moi-00019",
+      "title": "10.48670/moi-00019",
+      "type": "text/html"
+    },
+    {
+      "rel": "alternative",
+      "href": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_029",
+      "title": "Product page",
+      "type": "text/html"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/PUM/CMEMS-GLO-PUM-001-029.pdf",
+      "title": "Product User Manual",
+      "type": "application/pdf",
+      "ref": "CMEMS-GLO-PUM-001-029",
+      "createdAt": "2018-10-25",
+      "updatedAt": "2024-07-31T13:28:49.175Z"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/QUID/CMEMS-GLO-QUID-001-029.pdf",
+      "title": "Quality Information Document",
+      "type": "application/pdf",
+      "ref": "CMEMS-GLO-QUID-001-029",
+      "createdAt": "2018-10-25",
+      "updatedAt": "2024-07-26T14:49:06.826Z"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://documentation.marine.copernicus.eu/SQO/CMEMS-GLO-SQO-001-029.pdf",
+      "title": "Synthesis Quality Overview",
+      "type": "application/pdf",
+      "ref": "CMEMS-GLO-SQO-001-029",
+      "createdAt": "2023-11-30",
+      "updatedAt": "2024-07-26T16:03:10.262Z"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -80,
+          179.75,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1993-01-01T00:00:00Z",
+          "2026-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://mdl-metadata.s3.waw3-1.cloudferro.com/metadata/thumbnails/GLOBAL_MULTIYEAR_BGC_001_029.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Global Ocean Biogeochemistry Hindcast thumbnail"
+    }
+  },
+  "properties": {
+    "altId": "da5e467c-7cbd-4cde-a759-9b29b897c722",
+    "providerMetadata": {
+      "source": "cmems",
+      "type": "csw",
+      "url": "https://csw.marine.copernicus.eu/geonetwork/csw-MYOCEAN-CORE-PRODUCTS/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&id=da5e467c-7cbd-4cde-a759-9b29b897c722&elementsetname=full&outputSchema=http://www.isotc211.org/2005/gmd"
+    },
+    "thumbnailMeta": {
+      "creationDate": "2023-06-18T05:52:23.411Z",
+      "layerId": "GLOBAL_MULTIYEAR_BGC_001_029/cmems_mod_glo_bgc_my_0.25_P1M-m_202112/chl",
+      "time": 1542326400000,
+      "elevation": -0.5057600140571594,
+      "basemapId": "light",
+      "overlays": {
+        "tags": []
+      },
+      "crs": "epsg:4326",
+      "valueMin": 0.0026490110903978348,
+      "valueMax": 0.6645976901054373,
+      "valueClamp": true,
+      "logScale": false,
+      "style": "default",
+      "colormapId": "algae",
+      "colormapInvert": false
+    },
+    "creationDate": "2012-08-26",
+    "modifiedDate": "2024-06-18",
+    "contacts": [
+      {
+        "name": "",
+        "organisationName": "GLO-MERCATOR-TOULOUSE-FR",
+        "responsiblePartyRole": "resourceProvider",
+        "email": ""
+      }
+    ],
+    "projection": "Equirectangular",
+    "assimilatedData": [
+      "None"
+    ],
+    "formats": [
+      "NetCDF-4"
+    ],
+    "updateFrequencies": {
+      "monthly": null
+    },
+    "featureTypes": [
+      "Grid"
+    ],
+    "indicatorFamilies": [],
+    "geoExtent": {
+      "type": "envelope",
+      "coordinates": [
+        [
+          -180,
+          90
+        ],
+        [
+          180,
+          -90
+        ]
+      ]
+    },
+    "geoResolution": {
+      "row": {
+        "magnitude": 0.25,
+        "units": "degree"
+      },
+      "column": {
+        "magnitude": 0.25,
+        "units": "degree"
+      }
+    },
+    "tempExtentBegin": "2023-01-01",
+    "tempExtentEnd": "",
+    "tempResolutions": [
+      "Daily",
+      "Monthly"
+    ],
+    "vertExtentMin": -5500,
+    "vertExtentMax": 0,
+    "vertLevels": 75,
+    "rank": 1700,
+    "useCases": [
+      {
+        "title": "Seasonal Water Quality Forecasts for Coastal Water Quality Services ",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/ClimForce_UC1_1.jpg",
+        "href": "https://marine.copernicus.eu/services/use-cases/seasonal-water-quality-forecasts-coastal-water-quality-services"
+      },
+      {
+        "title": "Mapping marine biodiversity issues to better plan the deployment of offshore wind farms",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/Avoidnsig_02.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/mapping-marine-biodiversity-issues-better-plan-deployment-offshore-wind-farms"
+      },
+      {
+        "title": "Modelled prey fields predict predator foraging success",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/Fig%20-%20option%201.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/modelled-prey-fields-predict-predator-foraging-success"
+      },
+      {
+        "title": "Marine Data Viewer: Uniting In-Situ Measurements, Models, and Satellites for Essential Ocean Variables",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/Marine%20Data%20Viewer.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/marine-data-viewer-uniting-situ-measurements-models-and-satellites-essential"
+      },
+      {
+        "title": "A model to support sea turtle protection at sea",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/tortue.jpg",
+        "href": "https://marine.copernicus.eu/services/use-cases/model-support-sea-turtle-protection-sea"
+      },
+      {
+        "title": "COASTSERV: Downscaled CMEMS products for high-resolution coastal models",
+        "imageSrc": "https://marine.copernicus.eu/sites/default/files/media/image/use_case/deltares.illustration_1.png",
+        "href": "https://marine.copernicus.eu/services/use-cases/coastserv-downscaled-cmems-products-high-resolution-coastal-models"
+      }
+    ],
+    "areas": [
+      "Global Ocean"
+    ],
+    "times": [
+      "Past"
+    ],
+    "sources": [
+      "Numerical models"
+    ],
+    "colors": [
+      "Green Ocean"
+    ],
+    "communities": [
+      "Conservation & biodiversity",
+      "Climate & adaptation",
+      "Policy & governance",
+      "Science & innovation",
+      "Marine food"
+    ],
+    "processingLevel": "Level 4",
+    "mainVariables": [
+      "Plankton",
+      "Nutrients",
+      "Oxygen",
+      "Carbonate system"
+    ],
+    "allVariables": [
+      "Cell thickness",
+      "Mass concentration of chlorophyll a in sea water",
+      "Model level number at sea floor",
+      "Mole concentration of dissolved iron in sea water",
+      "Mole concentration of dissolved molecular oxygen in sea water",
+      "Mole concentration of nitrate in sea water",
+      "Mole concentration of phosphate in sea water",
+      "Mole concentration of phytoplankton expressed as carbon in sea water",
+      "Mole concentration of silicate in sea water",
+      "Net primary production of biomass expressed as carbon per unit volume in sea water",
+      "Sea binary mask",
+      "Sea floor depth below geoid",
+      "Sea water ph reported on total scale",
+      "Surface partial pressure of carbon dioxide in sea water"
+    ],
+    "directives": [
+      "Marine Strategy Framework Directive (MSFD)",
+      "Water Framework Directive (WFD)"
+    ],
+    "isStaging": false,
+    "admp_updated": "2026-08-03T14:08:45.921101Z"
+  },
+  "sci:doi": "10.48670/moi-00019"
+}
