@@ -5,6 +5,7 @@
     <dct:title xmlns:dct="http://purl.org/dc/terms/"
       xml:lang="en">ROMS NorKyst800 ocean model</dct:title>
     <dct:description xmlns:dct="http://purl.org/dc/terms/" xml:lang="en">
+  THIS MODEL IS DISCONTINUED.
   MET Norway's operational ocean model ROMS is run on the NorKyst-800m
   grid, a polar-stereographic grid covering the Norwegian coastal zone
   with 800 m grid spacing. The model is run daily (00UTC) with
@@ -99,6 +100,8 @@
       <dct:PeriodOfTime>
         <dcat:startDate
           rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2017-02-28T12:00:00Z</dcat:startDate>
+        <dcat:endDate
+          rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2025-10-05T12:00:00Z</dcat:endDate>
       </dct:PeriodOfTime>
     </dct:temporal>
     <dct:subject xmlns:dct="http://purl.org/dc/terms/"
@@ -121,7 +124,7 @@
     </dct:creator>
     <foaf:page xmlns:foaf="http://xmlns.com/foaf/0.1/">
       <foaf:Document
-        rdf:about="https://thredds.met.no/thredds/fou-hi/norkyst800v2.html?dataset=norkyst800m_24h_be">
+        rdf:about="https://thredds.met.no/thredds/catalog/fou-hi/norkyst800v2.html?dataset=norkyst800m_24h_be">
         <dct:description
           xmlns:dct="http://purl.org/dc/terms/">Data server landing page</dct:description>
       </foaf:Document>
@@ -136,7 +139,7 @@
       </foaf:Document>
     </dcat:landingPage>
     <dct:modified xmlns:dct="http://purl.org/dc/terms/"
-      rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2025-03-25T13:16:50Z</dct:modified>
+      rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#dateTime">2026-09-23T11:54:07Z</dct:modified>
     <prov:wasGeneratedBy xmlns:prov="http://www.w3.org/ns/prov">
       <prov:Activity>
         <rdfs:label
