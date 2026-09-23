@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="/static/oai2.xsl"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-09-23T09:30:10Z</responseDate>
+  <request verb="GetRecord" identifier="oai:zenodo.org:22899602"
+    metadataPrefix="dcat">https://zenodo.org/oai2d</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:zenodo.org:22899602</identifier>
+        <datestamp>2026-09-23T09:04:29Z</datestamp>
+        <setSpec>openaire_data</setSpec>
+        <setSpec>user-akvaplan-niva</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:adms="http://www.w3.org/ns/adms#"
+          xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:citedcat="https://w3id.org/citedcat-ap/"
+          xmlns:dct="http://purl.org/dc/terms/"
+          xmlns:dctype="http://purl.org/dc/dcmitype/"
+          xmlns:dcat="http://www.w3.org/ns/dcat#"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:gsp="http://www.opengis.net/ont/geosparql#"
+          xmlns:locn="http://www.w3.org/ns/locn#"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:prov="http://www.w3.org/ns/prov#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+          xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+          <rdf:Description rdf:about="https://doi.org/10.5281/zenodo.22899602">
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset" />
+            <dct:type rdf:resource="http://purl.org/dc/dcmitype/Dataset" />
+            <dct:identifier
+              rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5281/zenodo.22899602</dct:identifier>
+            <foaf:page rdf:resource="https://doi.org/10.5281/zenodo.22899602" />
+            <dct:creator>
+              <rdf:Description
+                rdf:about="https://orcid.org/0000-0003-0669-0260">
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+                <foaf:name>Bandara, Kanchana</foaf:name>
+                <foaf:givenName>Kanchana</foaf:givenName>
+                <foaf:familyName>Bandara</foaf:familyName>
+                <org:memberOf>
+                  <foaf:Organization
+                    rdf:about="https://ror.org/https://ror.org/03nrps502">
+                    <dct:identifier
+                      rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/03nrps502</dct:identifier>
+                    <foaf:name>Akvaplan-niva</foaf:name>
+                  </foaf:Organization>
+                </org:memberOf>
+              </rdf:Description>
+            </dct:creator>
+            <dct:creator>
+              <rdf:Description
+                rdf:about="https://orcid.org/0000-0003-4377-8915">
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+                <foaf:name>Ratha, Debanshu</foaf:name>
+                <foaf:givenName>Debanshu</foaf:givenName>
+                <foaf:familyName>Ratha</foaf:familyName>
+                <org:memberOf>
+                  <foaf:Organization
+                    rdf:about="https://ror.org/https://ror.org/03nrps502">
+                    <dct:identifier
+                      rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/03nrps502</dct:identifier>
+                    <foaf:name>Akvaplan-niva</foaf:name>
+                  </foaf:Organization>
+                </org:memberOf>
+              </rdf:Description>
+            </dct:creator>
+            <dct:title>Abundance of holo and mero zooplankton in the Norwegian sea grouped based on their estimated feeding modes</dct:title>
+            <dct:publisher>
+              <foaf:Agent>
+                <foaf:name>Zenodo</foaf:name>
+              </foaf:Agent>
+            </dct:publisher>
+            <dct:issued
+              rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</dct:issued>
+            <citedcat:isFundedBy>
+              <foaf:Project>
+                <dct:identifier
+                  rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBEP2024-31</dct:identifier>
+                <dct:title>Digital Twin for Innovation in Oceanic Visualization and Exploration</dct:title>
+                <citedcat:isAwardedBy>
+                  <foaf:Organization>
+                    <dct:identifier
+                      rdf:datatype="http://www.w3.org/2001/XMLSchema#string" />
+                    <foaf:name>The Sustainable Blue Economy Partnership</foaf:name>
+                  </foaf:Organization>
+                </citedcat:isAwardedBy>
+              </foaf:Project>
+            </citedcat:isFundedBy>
+            <citedcat:funder>
+              <foaf:Organization>
+                <dct:identifier
+                  rdf:datatype="http://www.w3.org/2001/XMLSchema#string" />
+                <foaf:name>The Sustainable Blue Economy Partnership</foaf:name>
+              </foaf:Organization>
+            </citedcat:funder>
+            <dct:issued
+              rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-22</dct:issued>
+            <dct:modified
+              rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dct:modified>
+            <owl:sameAs rdf:resource="https://zenodo.org/records/22899602" />
+            <adms:identifier>
+              <adms:Identifier>
+                <skos:notation
+                  rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zenodo.org/records/22899602</skos:notation>
+                <adms:schemeAgency>URL</adms:schemeAgency>
+              </adms:Identifier>
+            </adms:identifier>
+            <adms:identifier>
+              <adms:Identifier>
+                <skos:notation>oai:zenodo.org:22899602</skos:notation>
+                <adms:schemeAgency>oai</adms:schemeAgency>
+              </adms:Identifier>
+            </adms:identifier>
+            <dct:source>
+              <rdf:Description
+                rdf:about="https://doi.org/10.17031/69cb95bb0af84">
+                <dct:identifier>https://doi.org/10.17031/69cb95bb0af84</dct:identifier>
+                <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset" />
+                <dct:type rdf:resource="http://purl.org/dc/dcmitype/Dataset" />
+              </rdf:Description>
+            </dct:source>
+            <dct:isVersionOf>
+              <rdf:Description
+                rdf:about="https://doi.org/10.5281/zenodo.22899601">
+                <dct:identifier>https://doi.org/10.5281/zenodo.22899601</dct:identifier>
+              </rdf:Description>
+            </dct:isVersionOf>
+            <dct:isPartOf>
+              <rdf:Description
+                rdf:about="https://zenodo.org/communities/akvaplan-niva/">
+                <dct:identifier>https://zenodo.org/communities/akvaplan-niva/</dct:identifier>
+              </rdf:Description>
+            </dct:isPartOf>
+            <dct:description>Using a custom export of the Continuous Plankton Recorder Survey (Helaouët 2026) we aggregated taxa according to their feeding mode (herbivore, carnivore, omnivore and detritivore) and gridded the abundances of those across a 2D (lat-lon) grid at 0.083 deg. resolution. This dataset is part of the DIVE project. Reference Pierre Helaouët (Marine Biological Association of the United Kingdom) (2026): CPR Data request - PredictionZooplankton - 31/03/2026. The Archive for Marine Species and Habitats Data (DASSH). (Dataset). https://doi.org/10.17031/69cb95bb0af84</dct:description>
+            <dct:accessRights
+              rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+            <dct:accessRights>
+              <dct:RightsStatement
+                rdf:about="info:eu-repo/semantics/openAccess">
+                <rdfs:label />
+              </dct:RightsStatement>
+            </dct:accessRights>
+            <dcat:distribution>
+              <dcat:Distribution>
+                <dct:license
+                  rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode" />
+                <dcat:accessURL
+                  rdf:resource="https://doi.org/10.5281/zenodo.22899602" />
+              </dcat:Distribution>
+            </dcat:distribution>
+            <dcat:distribution>
+              <dcat:Distribution>
+                <dcat:downloadURL
+                  rdf:resource="https://zenodo.org/records/22899602/files/cprdata_dive_v4_20w29e_65n79n_0083deg.nc" />
+                <dcat:mediaType>application/x-netcdf</dcat:mediaType>
+                <dcat:byteSize>12061034</dcat:byteSize>
+                <dcat:accessURL
+                  rdf:resource="https://doi.org/10.5281/zenodo.22899602" />
+              </dcat:Distribution>
+            </dcat:distribution>
+          </rdf:Description>
+        </rdf:RDF>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
