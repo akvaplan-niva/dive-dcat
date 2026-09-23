@@ -18,7 +18,7 @@
   "extent": {
     "spatial": { "bbox": [[0.0, -89.0, 360.0, 89.0]] },
     "temporal": {
-      "interval": [["1940-01-01T00:00:00+00:00", "2026-09-17T00:00:00+00:00"]]
+      "interval": [["1940-01-01T00:00:00+00:00", "2026-08-19T00:00:00+00:00"]]
     }
   },
   "links": [
@@ -51,7 +51,7 @@
     },
     {
       "rel": "constraints",
-      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/constraints_8df15fff8b915872040ad759fd9bc1975920f49a4ee39c5f7c6e45aa643ffbda.json",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/constraints_6795c683142a17ea452b8f544bcf4920850054571ea3d9419d5462e022b76b1f.json",
       "type": "application/json"
     },
     {
@@ -66,28 +66,23 @@
     },
     {
       "rel": "layout",
-      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/layout_797e1a4b90d0fa9f5b7b56261124b1d7f15d716812f8caef798be569bee50599.json",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/layout_012e987909f48d455e15d84cf52f3f0bf4c8db1ad4f29086c0ff591e12db3e1e.json",
       "type": "application/json"
     },
     {
       "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels",
-      "title": "ERA5 hourly data on pressure levels from 1940 to present"
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-single-levels-daily-statistics",
+      "title": "ERA5 post-processed daily statistics on single levels from 1940 to present"
     },
     {
       "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels-monthly-means",
-      "title": "ERA5 monthly averaged data on pressure levels from 1940 to present"
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-pressure-levels-daily-statistics",
+      "title": "ERA5 post-processed daily statistics on pressure levels from 1940 to present"
     },
     {
       "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-single-levels-monthly-means",
-      "title": "ERA5 monthly averaged data on single levels from 1940 to present"
-    },
-    {
-      "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels-timeseries",
-      "title": "ERA5 hourly time-series data on pressure levels from 1940 to present"
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-utci-historical-timeseries",
+      "title": "Thermal comfort indices time-series derived from ERA5 reanalysis"
     },
     {
       "rel": "related",
@@ -101,23 +96,28 @@
     },
     {
       "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-utci-historical-timeseries",
-      "title": "Thermal comfort indices time-series derived from ERA5 reanalysis"
-    },
-    {
-      "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-single-levels-daily-statistics",
-      "title": "ERA5 post-processed daily statistics on single levels from 1940 to present"
-    },
-    {
-      "rel": "related",
       "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-complete",
       "title": "Complete ERA5 global atmospheric reanalysis"
     },
     {
       "rel": "related",
-      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-pressure-levels-daily-statistics",
-      "title": "ERA5 post-processed daily statistics on pressure levels from 1940 to present"
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-single-levels-monthly-means",
+      "title": "ERA5 monthly averaged data on single levels from 1940 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels",
+      "title": "ERA5 hourly data on pressure levels from 1940 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels-monthly-means",
+      "title": "ERA5 monthly averaged data on pressure levels from 1940 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-pressure-levels-timeseries",
+      "title": "ERA5 hourly time-series data on pressure levels from 1940 to present"
     },
     {
       "rel": "messages",
@@ -133,12 +133,12 @@
     }
   },
   "published": "2018-06-14T00:00:00Z",
-  "updated": "2026-09-23T00:00:00Z",
+  "updated": "2026-08-25T00:00:00Z",
   "sci:doi": "10.24381/cds.adbb2d47",
   "cads:disabled_reason": null,
   "cads:sanity_check": {
     "status": "available",
-    "timestamp": "2026-09-23T09:16:52.641452+00:00"
+    "timestamp": "2026-08-25T10:16:52.142139+00:00"
   },
   "cads:update_frequency": "Daily",
   "cads:fair": 96

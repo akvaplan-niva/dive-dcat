@@ -1,7 +1,6 @@
 {
   "tasks": {
-    "fetch": "./src/task/fetch_original_metadata.ts && deno fmt data/**/*.json data/**/*.xml",
-    "create": "./src/task/process_originals.ts && deno fmt data/original/crossref data/original/datacite",
+    "fetch": "deno run --allow-ffi -EIRNW ./fetch_metadata.ts",
     "fmt": "deno fmt data/**/*.json data/**/*.xml"
   },
   "imports": {
