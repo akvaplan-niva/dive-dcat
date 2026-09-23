@@ -19,7 +19,7 @@
   "extent": {
     "spatial": { "bbox": [[0.0, -89.0, 360.0, 89.0]] },
     "temporal": {
-      "interval": [["1950-01-01T00:00:00+00:00", "2026-07-01T00:00:00+00:00"]]
+      "interval": [["1950-01-01T00:00:00+00:00", "2026-08-01T00:00:00+00:00"]]
     }
   },
   "links": [
@@ -58,7 +58,7 @@
     },
     {
       "rel": "constraints",
-      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/constraints_a9893bb60978f26105e44fb9c083713d2c0516297ab7dd7f31ba85e347a89613.json",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/constraints_6adbba3f5c3e6a97f62033e266ab4874b552663e275c90ac110cba0805114210.json",
       "type": "application/json"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "rel": "layout",
-      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/layout_7e4ffe324d2ccaa0b7227aace55d0c3a6a87363fafe9a27554ef888be1c46502.json",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land-monthly-means/layout_1203fd176589cb4840d4a3f7cb3056eec8c28ad9a454cb834712b85f5a64d9bb.json",
       "type": "application/json"
     },
     {
@@ -105,12 +105,12 @@
     }
   },
   "published": "2019-06-23T00:00:00Z",
-  "updated": "2026-08-06T00:00:00Z",
+  "updated": "2026-09-06T00:00:00Z",
   "sci:doi": "10.24381/cds.68d2bb30",
   "cads:disabled_reason": null,
   "cads:sanity_check": {
     "status": "available",
-    "timestamp": "2026-08-25T10:17:28.752939+00:00"
+    "timestamp": "2026-09-23T09:19:52.665162+00:00"
   },
   "cads:update_frequency": "Monthly",
   "cads:fair": 96

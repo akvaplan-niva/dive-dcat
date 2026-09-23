@@ -4,8 +4,9 @@
 
 This git repository contains a machine-readable data catalog holding metadata
 and rights statements of datasets used in the
-[SBEP-funded](https://bluepartnership.eu/projects/digital-twin-innovation-oceanic-visualization-and-exploration)
-DIVE project.
+[SBEP](https://bluepartnership.eu)-funded
+[DIVE](https://bluepartnership.eu/projects/digital-twin-innovation-oceanic-visualization-and-exploration)
+project.
 
 The DIVE project aims at building digital twins of the ocean by reusing existing
 data in a reproducible and responsible fashion. A key goal of the project's
@@ -14,8 +15,8 @@ exact datasets used, following best practices for data citation as formalized
 following the seminal
 [Joint Declaration of Data Citation Principles](https://doi.org/10.25490/a97f-egyk)
 (2014) and the [FAIR](https://doi.org/10.1038/sdata.2016.18) guiding principles
-(2016). (See also:
-[Data citation – A guide to best practice](https://data.europa.eu/doi/10.2830/59387).)
+(2016). (See also EU's guide
+[Data citation](https://data.europa.eu/doi/10.2830/59387))
 
 The data catalog is deliverable D1.2 of the DIVE project, and is developed by
 [Akvaplan-niva](https://akvaplan.no/) in a public git repository:
