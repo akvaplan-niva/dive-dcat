@@ -2,10 +2,12 @@
   "tasks": {
     "fetch": "./src/task/fetch_original_metadata.ts && deno fmt data/**/*.json data/**/*.xml",
     "create": "./src/task/process_originals.ts && deno fmt data/original/crossref data/original/datacite",
+    "list": "deno run --allow-read --allow-net ./src/task/list_datasets.ts",
     "fmt": "deno fmt data/**/*.json data/**/*.xml"
   },
   "imports": {
     "@firecrawl/pdf-inspector": "npm:@firecrawl/pdf-inspector@^1.14.2",
-    "@std/media-types": "jsr:@std/media-types@1.1.0"
+    "@std/media-types": "jsr:@std/media-types@1.1.0",
+    "@std/xml": "jsr:@std/xml@^0.2.0"
   }
 }
