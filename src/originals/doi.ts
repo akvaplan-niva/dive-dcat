@@ -1,7 +1,7 @@
 import { crossrefDoiUrl } from "../apis/crossref.ts";
 import { dataciteDoiUrl } from "../apis/datacite.ts";
 import { canonicalDoiUrl, getDoiLocation } from "../apis/doi.ts";
-import { config } from "../config.ts";
+import { config } from "@root/config.ts";
 import { fetchJson, fetchToDir } from "../io.ts";
 
 export async function* stacOriginals() {

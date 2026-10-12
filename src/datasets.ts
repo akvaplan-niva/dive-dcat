@@ -8,7 +8,7 @@ import {
   doiKey,
   licenseUrl,
 } from "./citation.ts";
-import { config } from "./config.ts";
+import { config } from "@root/config.ts";
 import { fetchJson } from "./io.ts";
 
 const yearOf = (value: string | undefined) => value?.match(/\d{4}/)?.[0] ?? "";

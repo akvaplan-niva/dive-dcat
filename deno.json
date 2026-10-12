@@ -6,6 +6,7 @@
     "fmt": "deno fmt data/**/*.json data/**/*.xml"
   },
   "imports": {
+    "@root/": "./",
     "@firecrawl/pdf-inspector": "npm:@firecrawl/pdf-inspector@^1.14.2",
     "@std/media-types": "jsr:@std/media-types@1.1.0",
     "@std/xml": "jsr:@std/xml@^0.2.0"

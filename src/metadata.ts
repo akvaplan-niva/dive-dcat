@@ -1,4 +1,4 @@
-import { config } from "./config.ts";
+import { config } from "@root/config.ts";
 import { fetchToDir, filenameFromResponseUrl } from "./io.ts";
 //import { fetchDoiMetadata } from "./originals/doi.ts";
 import { extractStacFilenameFromResponse } from "./stac/links.ts";

@@ -3,7 +3,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-10-12T07:36:28Z</responseDate>
+  <responseDate>2026-10-12T07:50:44Z</responseDate>
   <request verb="GetRecord" identifier="oai:zenodo.org:22899602"
     metadataPrefix="dcat">https://zenodo.org/oai2d</request>
   <GetRecord>

@@ -1,6 +1,10 @@
-export const metadataTypes = new Set(["stac", "dcat"] as const);
+export const metadataTypes = new Set(
+  ["stac", "dcat", "crossref", "datacite"] as const,
+);
 
-const originalDirs = new Set([...metadataTypes, "rights"] as const);
+const originalDirs = new Set(
+  [...metadataTypes, "rights"] as const,
+);
 type OriginalDirType = typeof originalDirs extends Set<infer T> ? T : never;
 
 const externalStacUrls = [
@@ -21,7 +25,7 @@ const externalStacUrls = [
 
 const externalDcatUrls = [
   "https://adc.met.no/dataset/90e1c0ba-9dc7-5ffe-9578-28b73967602d?export_type=dcatap",
-  "https://zenodo.org/oai2d?verb=GetRecord&identifier=oai:zenodo.org:22899602&metadataPrefix=dcat",
+  "https://zenodo.org/oai2d?verb=GetRecord&metadataPrefix=dcat&identifier=oai:zenodo.org:22899602",
 ];
 
 const externalUrls = {
@@ -30,12 +34,16 @@ const externalUrls = {
   rights: [
     "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice",
   ],
-} as const satisfies Record<OriginalDirType, string[]>;
+} as const satisfies Partial<Record<OriginalDirType, string[]>>;
+
+const originalsDir = new URL("./data/original/", import.meta.url);
 
 const originals = {
-  dcat: new URL("./data/original/dcat/", import.meta.url),
-  stac: new URL("./data/original/stac/", import.meta.url),
-  rights: new URL("./data/original/rights/", import.meta.url),
+  crossref: new URL("crossref/", originalsDir),
+  datacite: new URL("datacite/", originalsDir),
+  dcat: new URL("dcat/", originalsDir),
+  stac: new URL("stac/", originalsDir),
+  rights: new URL("rights/", originalsDir),
 } as const satisfies Record<OriginalDirType, URL>;
 
 export const config = {

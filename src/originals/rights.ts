@@ -1,4 +1,4 @@
-import { config } from "../config.ts";
+import { config } from "@root/config.ts";
 import { fetchJson, fetchToDir, filenameFromResponseUrl } from "../io.ts";
 import { markdownFilesFromPdfsInDir } from "../pdf.ts";
 import { findLinkByRel } from "../stac/links.ts";
