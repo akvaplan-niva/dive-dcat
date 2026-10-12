@@ -21,6 +21,7 @@ const externalStacUrls = [
 
 const externalDcatUrls = [
   "https://adc.met.no/dataset/90e1c0ba-9dc7-5ffe-9578-28b73967602d?export_type=dcatap",
+  "https://zenodo.org/oai2d?verb=GetRecord&identifier=oai:zenodo.org:22899602&metadataPrefix=dcat",
 ];
 
 const externalUrls = {
